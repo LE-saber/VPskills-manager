@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/registry.schema.json",
+  "schema_version": "1.0",
+  "repository": "LE-saber/VPskills-manager",
+  "updated_at": "2026-07-17",
+  "skills": [
+    {
+      "name": "vpskills-manager",
+      "description": "Discover, select, read, validate, add, update, and organize Skills in the LE-saber/VPskills-manager Git-backed registry. Use when a network-connected AI needs to use a remotely stored personal Skill or maintain the Skill library.",
+      "path": "skills/vpskills-manager/SKILL.md",
+      "version": "0.1.0",
+      "status": "active",
+      "tags": [
+        "skill-management",
+        "registry",
+        "remote-ai",
+        "github"
+      ],
+      "triggers": [
+        "use my remote skill",
+        "manage my skills",
+        "读取我的skill",
+        "管理个人skill",
+        "VPskills Manager"
+      ],
+      "compatibility": [
+        "remote-read",
+        "local-agent",
+        "github-write"
+      ],
+      "risk_level": "medium",
+      "source": {
+        "type": "local",
+        "repository": "LE-saber/VPskills-manager",
+        "path": "skills/vpskills-manager",
+        "ref": "main"
+      }
+    }
+  ]
+}
