@@ -2,7 +2,7 @@
   "$schema": "../schemas/registry.schema.json",
   "schema_version": "1.0",
   "repository": "LE-saber/VPskills-manager",
-  "updated_at": "2026-07-17",
+  "updated_at": "2026-07-22",
   "skills": [
     {
       "name": "vpskills-manager",
@@ -33,6 +33,45 @@
         "type": "local",
         "repository": "LE-saber/VPskills-manager",
         "path": "skills/vpskills-manager",
+        "ref": "main"
+      }
+    },
+    {
+      "name": "research-plotting",
+      "description": "Design, audit, reproduce, standardize, and beautify publication-quality scientific and business data visualizations while preserving exact data values, units, labels, category order, uncertainty, and statistical meaning. Use for charts in papers, theses, laboratory reports, presentations, posters, and data-analysis workflows.",
+      "path": "skills/research-plotting/SKILL.md",
+      "version": "0.1.0",
+      "status": "active",
+      "tags": [
+        "scientific-visualization",
+        "data-visualization",
+        "matplotlib",
+        "ggplot2",
+        "publication-graphics",
+        "chart-design"
+      ],
+      "triggers": [
+        "科研绘图",
+        "美化科研图表",
+        "美化图片中的图表",
+        "publication-quality plot",
+        "scientific plotting",
+        "redraw this chart",
+        "论文图表",
+        "统一图表风格"
+      ],
+      "compatibility": [
+        "remote-read",
+        "local-agent",
+        "python",
+        "r",
+        "vector-export"
+      ],
+      "risk_level": "low",
+      "source": {
+        "type": "local",
+        "repository": "LE-saber/VPskills-manager",
+        "path": "skills/research-plotting",
         "ref": "main"
       }
     }
